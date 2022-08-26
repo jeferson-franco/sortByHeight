@@ -1,0 +1,20 @@
+{
+  "name": "sortbyheight",
+  "version": "1.0.0",
+  "description": "Some people are standing in a row in a park. There are trees between them which cannot be moved. Your task is to rearrange the people by their heights in a non-descending order without moving the trees. People can be very tall!",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeferson-franco/sortByHeight.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeferson-franco/sortByHeight/issues"
+  },
+  "homepage": "https://github.com/jeferson-franco/sortByHeight#readme"
+}
