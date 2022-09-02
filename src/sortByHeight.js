@@ -16,3 +16,21 @@ module.exports = solution;
 // npm i jest-cli -g
 // package.json: "scripts": { "test": "jest" }
 // npm test sortByHeight
+
+// alternative solution
+// function solution(a) {
+//     let s = a.filter((h) => h > 0).sort((a, b) => a - b);
+//     return a.map((p) => {
+//         if (p !== -1) {
+//             return s.shift();
+//         }
+//         return -1;
+//     });
+// }
+
+// alternative solution
+// function solution(a) {
+//     let filtered = a.filter((val) => val !== -1);
+//     let sorted = filtered.sort((a, b) => a - b);
+//     return a.map((val) => (val === -1 ? -1 : sorted.shift()));
+// }
